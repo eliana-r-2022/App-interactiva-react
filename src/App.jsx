@@ -1,7 +1,3 @@
-// Aclaración:  En App, solo debería haber un Header, main y Footer. 
-// Aclaración --> Manejadores de eventos: si hay un evento utilizar un manejador de eventos, no amontonar la logica en el HTML. Usar la palabra handle o manejador, e indicar que maneja esa funcion en su nombre.
-// Si hay funciones auxiliares, deben estar en la carpeta "utils".
-
 import { useState } from "react";
 import { catalogo } from "./data";
 import CustomHeader from "./components/CustomHeader";
